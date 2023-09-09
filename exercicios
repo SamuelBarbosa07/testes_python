@@ -1,0 +1,15 @@
+print("Calculo de imc")
+
+print("==============================")
+
+nome = input ("Qual o seu nome?")
+peso = float(input ("Qual o seu peso em Kg?"))
+idade = int(input ("Qual a sua idade?"))
+altura = float(input ("Qual a sua altura?"))
+imc = peso/(altura**2)
+
+print(f"Olá {nome}")
+print(f"Sua idade é de {idade} anos")
+print(f"Seu peso é de {peso} Kg")
+print(f"Sua idade é de {idade} anos")
+print(f"Seu imc é de {imc}")
