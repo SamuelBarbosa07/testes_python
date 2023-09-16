@@ -1,0 +1,22 @@
+numero_um = float(input("Digite o primeiro numero: "))
+numero_dois = float(input("Digite o segundo numero: "))
+operação = input("Selecione a operação que deseja realizar (+ - * /): ")
+
+resultado = ''
+if operação == '+':
+    resultado = numero_um + numero_dois
+elif  operação == '-':
+    resultado = numero_um - numero_dois
+elif  operação == '*':
+    resultado = numero_um * numero_dois
+elif  operação == '/':
+    if numero_dois == 0:
+        print("Não é possivel dividir por zero")
+    else:
+        resultado = numero_um / numero_dois
+else:
+    print("Operação não reconhecida")
+
+if resultado != '':
+    print(f"O resultado é {resultado}")
+    

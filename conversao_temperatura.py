@@ -9,5 +9,3 @@ kelvin = celsius +273.15
 
 print(f"fahrenheit {fahre}")
 print(f"kelvin {kelvin}")
-
-
